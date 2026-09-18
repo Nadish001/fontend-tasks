@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.log{
+    width: 1500px;
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.main{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(15, 16, 20, .98);
+    color: aliceblue;
+}
+.head{
+    height: 80px;
+    min-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    padding-bottom: 150px;
+}
+
+.bank{
+    width: 33.3%;
+        display: flex;
+    flex-direction: row;
+        justify-content: center;
+    align-items: center;
+}
+.who{
+    width: 33.3%;
+        display: flex;
+    flex-direction: row;
+        justify-content: center;
+    align-items: center;
+}
+.edit{
+    width: 33.3%;
+            display: flex;
+    flex-direction: row;
+        justify-content: flex-end;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600; 
+    padding: 10px;
+}
+
+
+
+.mid{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 300px;
+}
+
+.sub{
+width: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+border-radius: 90px;
+
+}
+.sub img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+.sub p{
+    padding-top: 20px;
+}
+
+.sub img:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 33%;
+}
